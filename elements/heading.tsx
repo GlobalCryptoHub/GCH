@@ -1,14 +1,12 @@
 import Element from "./element";
-import { ReactNode } from "@/models";
+import type { ElementProps } from "@/models";
 
 const Heading = ({
-	as: tag = "h2",
+	as: tag,
 	className = "",
 	children,
-}: {
+}: ElementProps & {
 	as: String;
-	children: ReactNode;
-	className?: String;
 }) => {
 	return (
 		<Element

@@ -1,2 +1,3 @@
 export type { ReactNode } from "react";
-// default types
+export type { default as ElementProps } from "./elementProps";
+// default types.

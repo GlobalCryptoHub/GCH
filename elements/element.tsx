@@ -1,15 +1,14 @@
 import { createElement } from "react";
-import { ReactNode } from "@/models";
+
+import type { ElementProps } from "@/models";
 
 const Element = ({
 	tag,
 	className,
 	children,
 	...otherProps
-}: {
+}: ElementProps & {
 	tag: any;
-	children: ReactNode;
-	className?: String;
 }) => {
 	return createElement(tag, { className, ...otherProps }, children);
 };
