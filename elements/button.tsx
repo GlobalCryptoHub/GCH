@@ -1,19 +1,19 @@
 import Element from "./element";
 import type { ElementProps } from "@/models";
 
-const Text = ({
-	as: tag = "p",
+const Button = ({
+	as: tag = "button",
 	className = "",
 	children,
 }: ElementProps & { as?: String }) => {
 	return (
 		<Element
 			tag={tag}
-			className={`text-black ${className}`}
 			children={children}
+			className={`font-medium py-4 px-12 rounded-[100px] text-xl text-white ${className}`}
 		/>
 	);
 };
 
-export default Text;
-// Basic app text structure.
+export default Button;
+// Basic app button structure.

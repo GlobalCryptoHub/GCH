@@ -11,7 +11,7 @@ const Heading = ({
 	return (
 		<Element
 			tag={tag}
-			className={`${className} font-black text-black text-center uppercase`}
+			className={`font-black text-black text-center uppercase ${className}`}
 			children={children}
 		/>
 	);
