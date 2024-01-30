@@ -75,6 +75,10 @@ const config = {
 				"accordion-down": "accordion-down 0.2s ease-out",
 				"accordion-up": "accordion-up 0.2s ease-out",
 			},
+			dropShadow: {
+				primary: "10px 10px 0px #D9BD41",
+				team: "6px -6px 0px #D9BD41",
+			},
 		},
 	},
 	plugins: [require("tailwindcss-animate")],

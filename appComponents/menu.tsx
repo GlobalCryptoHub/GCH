@@ -23,7 +23,7 @@ const Menu = () => {
 	return (
 		<div className="grid grid-cols-2 gap-2">
 			<Sheet key="bottom">
-				<SheetTrigger className="lg:hidden" asChild>
+				<SheetTrigger className="cursor-pointer lg:hidden" asChild>
 					<MenuIcon />
 				</SheetTrigger>
 				<SheetContent
