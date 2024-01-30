@@ -19,6 +19,7 @@
 		],
 		"paths": {
 			"@/*": ["./*"],
+			"@/appComponents/*": ["./appComponents/*"],
 			"@/elements/*": ["./elements/*"],
 			"@/models/*": ["./models/*"]
 		}
