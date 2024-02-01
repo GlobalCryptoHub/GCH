@@ -21,3 +21,4 @@ const Card = ({ children, shadowStyles, styles, type }: CardProps) => {
 };
 
 export default Card;
+// Basic card component
