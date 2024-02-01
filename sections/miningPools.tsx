@@ -36,14 +36,14 @@ const MiningPools = () => {
 	return (
 		<section>
 			<Figure
-				altText="nft section icon"
+				altText="mining pool section icon"
 				imageStyles="mx-auto h-[60px] w-[60px]"
 				image="/mining-pools-icon.svg"
 			/>
 			<Heading
 				as="h2"
 				children="Introducing quest mining pools"
-				className="text-[40px] mt-4 lg:text-6xl"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl"
 			/>
 			<Text
 				children="Select your desired pool and deploy your quests"
