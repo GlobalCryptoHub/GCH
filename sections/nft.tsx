@@ -31,7 +31,7 @@ const Nft = () => {
 				<div className="mx-auto relative h-fit">
 					<Picture
 						altText="nft"
-						className="blur-xl rounded-[15px]"
+						className="bg-[#01002A] blur-xl rounded-[15px]"
 						pngImage="/nft-image.png"
 						webpImage="/nft-image.webp"
 					/>

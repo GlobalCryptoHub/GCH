@@ -1,9 +1,9 @@
-import { Tokenomics } from "@/sections";
+import { RoadMap } from "@/sections";
 
 export default function Home() {
 	return (
 		<main className="min-h-screen p-4">
-			<Tokenomics />
+			<RoadMap />
 		</main>
 	);
 }
