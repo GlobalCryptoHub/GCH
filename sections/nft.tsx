@@ -25,7 +25,7 @@ const Nft = () => {
 			<Heading
 				as="h2"
 				children="The global Gateway NFT"
-				className="text-[40px] mb-10 mt-3.5 lg:text-6xl lg:mb-20"
+				className="text-[40px] mb-10 mt-4 lg:text-6xl lg:mb-20"
 			/>
 			<div className="grid gap-20 sm:gap-16 md:gap-20 lg:gap-24 sm:grid-cols-2">
 				<div className="mx-auto relative h-fit">

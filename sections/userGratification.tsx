@@ -44,7 +44,7 @@ const UserGratification = () => {
 			<Heading
 				as="h2"
 				children="User gratification"
-				className="text-3xl sm:text-[40px] mb-[30px] mt-3.5 lg:text-6xl"
+				className="text-3xl sm:text-[40px] mb-[30px] mt-4 lg:text-6xl"
 			/>
 			<Text
 				children="Say goodbye to endless farming without any rewards"
