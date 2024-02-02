@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
 
-import { Text } from "@/elements";
+import { Button, Text } from "@/elements";
 
 const Menu = () => {
 	const links = [
@@ -23,10 +23,10 @@ const Menu = () => {
 	];
 
 	return (
-		<div className="grid grid-cols-2 gap-2">
+		<div className="grid grid-cols-2 gap-2 mt-4 lg:hidden">
 			<Sheet key="bottom">
-				<SheetTrigger className="cursor-pointer lg:hidden" asChild>
-					<MenuIcon />
+				<SheetTrigger className="cursor-pointer" asChild>
+					<MenuIcon color="white" />
 				</SheetTrigger>
 				<SheetContent
 					aria-modal="true"
@@ -34,22 +34,23 @@ const Menu = () => {
 					side="bottom"
 				>
 					{links.map(({ path, name }, i) => (
-						<li key={i} className="list-none text-xl text-center w-full">
+						<li key={i} className="list-none text-sm text-center w-full">
 							<SheetClose asChild>
 								<Link
 									href={path}
-									className="block font-semibold group text-white focus:text-[#D8BC40] hover:text-[#D8BC40]"
+									className="block font-medium group text-white focus:text-[#D8BC40] hover:text-[#D8BC40] focus:font-black hover:font-black"
 								>
-									<Text
-										as="span"
-										className="decoration-[5px] group-focus:underline group-hover:underline underline-offset-8"
-									>
+									<span className="decoration-[5px] group-focus:underline group-hover:underline underline-offset-[10px]">
 										{name}
-									</Text>
+									</span>
 								</Link>
 							</SheetClose>
 						</li>
 					))}
+					<Button
+						children="Launch Dapp"
+						className="block border-2 border-[#D8BC40] bg-transparent mx-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+					/>
 				</SheetContent>
 			</Sheet>
 		</div>

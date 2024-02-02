@@ -16,11 +16,11 @@ const Hero = () => {
 					<Heading
 						as="h2"
 						children="Discover Engage Earn"
-						className="mb-5 mt-20 !text-left text-[30px] sm:text-[40px] md:my-0 lg:text-6xl lg:leading-normal"
+						className="mb-5 mt-20 !text-left text-white text-[30px] sm:text-[40px] md:my-0 lg:text-6xl lg:leading-normal"
 					/>
 					<Text
 						children="The first proof of work quest mining dapp"
-						className="text-[25px] md:mb-[30px] md:mt-[15px] lg:text-[35px]"
+						className="text-white text-[25px] md:mb-[30px] md:mt-[15px] lg:text-[35px]"
 					/>
 					<Button
 						children="Get Started"
