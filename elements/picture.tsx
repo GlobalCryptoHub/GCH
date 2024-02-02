@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import type { ImageProps } from "@/models";
 
 const Picture = ({ altText, className, pngImage, webpImage }: ImageProps) => {
@@ -5,7 +7,7 @@ const Picture = ({ altText, className, pngImage, webpImage }: ImageProps) => {
 		<picture>
 			<source srcSet={webpImage} />
 			<source srcSet={pngImage} />
-			<img alt={altText} className={className} src={pngImage} />
+			<Image src={pngImage} className={className} alt={altText} />
 		</picture>
 	);
 };

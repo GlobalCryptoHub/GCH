@@ -1,5 +1,6 @@
 export { default as Engagement } from "./engagement";
 export { default as Faq } from "./faq";
+export { default as Footer } from "./footer";
 export { default as MiningPools } from "./miningPools";
 export { default as Nft } from "./nft";
 export { default as RoadMap } from "./roadMap";

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import type { ImageProps } from "@/models";
 
 const Figure = ({
@@ -8,7 +10,7 @@ const Figure = ({
 }: ImageProps) => {
 	return (
 		<figure className={containerStyles}>
-			<img src={image} className={imageStyles} alt={altText} />
+			<Image src={image} className={imageStyles} alt={altText} />
 		</figure>
 	);
 };
