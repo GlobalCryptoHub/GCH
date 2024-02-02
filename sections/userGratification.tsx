@@ -35,7 +35,10 @@ const UserGratification = () => {
 	];
 
 	return (
-		<section className="bg-[#eee] -mx-4 px-4 py-20 [clip-path:polygon(0_0,100%_3%,100%_100%,0%_100%)] sm:pb-28 sm:pt-32 sm:[clip-path:polygon(0_0,100%_12%,100%_100%,0%_100%)]">
+		<section
+			id="user-gratification"
+			className="bg-[#eee] -mx-4 px-4 py-20 [clip-path:polygon(0_0,100%_3%,100%_100%,0%_100%)] sm:pb-28 sm:pt-32 sm:[clip-path:polygon(0_0,100%_12%,100%_100%,0%_100%)]"
+		>
 			<Figure
 				altText="user gratification section icon"
 				imageStyles="mx-auto"

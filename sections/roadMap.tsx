@@ -2,7 +2,10 @@ import { Figure, Heading, Text } from "@/elements";
 
 const RoadMap = () => {
 	return (
-		<section className="bg-[#F5F5F5] -mx-4 pb-72 pt-6 px-4 sm:pt-12">
+		<section
+			id="roadmap"
+			className="bg-[#F5F5F5] -mx-4 pb-72 pt-6 px-4 sm:pt-12"
+		>
 			<Figure
 				altText="tokenomics section icon"
 				imageStyles="mx-auto"

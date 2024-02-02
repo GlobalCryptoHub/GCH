@@ -8,7 +8,7 @@ const Tokenomics = () => {
 	];
 
 	return (
-		<section>
+		<section id="tokenomics" className="py-5 sm:py-20">
 			<Figure
 				altText="tokenomics section icon"
 				imageStyles="mx-auto"
@@ -40,7 +40,7 @@ const Tokenomics = () => {
 							<Text as="span" className="mx-2.5 sm:mx-5">
 								|
 							</Text>
-							<Text as="span" className="normal-case text-[#D8BC40]">
+							<Text as="span" className="normal-case !text-[#D8BC40]">
 								{description}
 							</Text>
 						</Text>

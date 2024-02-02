@@ -55,3 +55,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+// Navbar component

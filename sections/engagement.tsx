@@ -55,7 +55,7 @@ const Engagement = () => {
 	];
 
 	return (
-		<section>
+		<section id="engagement" className="py-5 sm:py-10">
 			<Figure
 				altText="tokenomics section icon"
 				imageStyles="mx-auto"

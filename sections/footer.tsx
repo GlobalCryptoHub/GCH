@@ -44,7 +44,7 @@ const Footer = () => {
 					/>
 					<Text className="lg:text-lg">
 						Designed & Built by the{" "}
-						<Text as="span" className="text-[#5765EB] underline">
+						<Text as="span" className="!text-[#5765EB] underline">
 							Global Crypto Hub Team
 						</Text>
 					</Text>

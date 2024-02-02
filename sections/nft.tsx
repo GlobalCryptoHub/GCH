@@ -16,7 +16,10 @@ const Nft = () => {
 	];
 
 	return (
-		<section className="bg-[#eee] -mx-4 px-4 py-16 [clip-path:polygon(0_0,100%_4%,100%_100%,0%_100%)] sm:pb-32 sm:pt-40 sm:[clip-path:polygon(0_0,100%_14%,100%_100%,0%_100%)]">
+		<section
+			id="nft"
+			className="bg-[#eee] -mx-4 px-4 py-16 [clip-path:polygon(0_0,100%_4%,100%_100%,0%_100%)] sm:pb-32 sm:pt-40 sm:[clip-path:polygon(0_0,100%_14%,100%_100%,0%_100%)]"
+		>
 			<Figure
 				altText="nft section icon"
 				imageStyles="mx-auto"

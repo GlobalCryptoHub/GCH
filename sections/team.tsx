@@ -43,7 +43,10 @@ const Team = () => {
 	];
 
 	return (
-		<section className="bg-black bg-center bg-cover bg-no-repeat bg-[url('/team-bg.webp')] -mx-4 px-4 py-[50px]">
+		<section
+			id="team"
+			className="bg-black bg-center bg-cover bg-no-repeat bg-[url('/team-bg.webp')] -mx-4 px-4 py-[50px]"
+		>
 			<Figure
 				altText="tokenomics section icon"
 				imageStyles="mx-auto"
