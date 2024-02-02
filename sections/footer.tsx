@@ -20,7 +20,7 @@ const Footer = () => {
 						<Heading
 							as="h1"
 							children="JOIN US NOW"
-							className=" text-[50px] text-[#FFD000]"
+							className="text-[50px] !text-[#FFD000]"
 						/>
 						<div className="flex space-x-[30px] mb-40 justify-center">
 							{items.map(({ name, path, src }, i) => (
