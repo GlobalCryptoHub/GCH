@@ -45,3 +45,4 @@ const Tokenomics = () => {
 };
 
 export default Tokenomics;
+// Tokenomics section

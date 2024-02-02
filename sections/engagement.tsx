@@ -1,22 +1,21 @@
 "use client";
 
+import { useRef } from "react";
 import Autoplay from "embla-carousel-autoplay";
-import { useEffect, useRef, useState } from "react";
 import {
 	Carousel,
 	CarouselContent,
 	CarouselItem,
 	CarouselNext,
 	CarouselPrevious,
-	type CarouselApi,
 } from "@/components/ui/carousel";
 
 import { Figure, Heading, Text } from "@/elements";
 import { Card } from "@/appComponents";
+import { useCarousel } from "@/hooks";
 
 const Engagement = () => {
-	const [api, setApi] = useState<CarouselApi>();
-	const [current, setCurrent] = useState(0);
+	const { current, setApi } = useCarousel();
 	const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: false }));
 
 	const items = [
@@ -55,13 +54,6 @@ const Engagement = () => {
 		},
 	];
 
-	useEffect(() => {
-		if (!api) return;
-		setCurrent(api.selectedScrollSnap() + 1);
-
-		api.on("select", () => setCurrent(api.selectedScrollSnap() + 1));
-	}, [api]);
-
 	return (
 		<section>
 			<Figure
@@ -99,7 +91,7 @@ const Engagement = () => {
 					<CarouselNext />
 				</Carousel>
 				<div className="py-2 flex justify-center gap-2.5 mt-[30px]">
-					{items.map((item, i) => (
+					{items.map((_, i) => (
 						<span
 							className={`inline-block h-5 w-5 rounded-full ${
 								i + 1 === current ? "bg-[#D9BD41]" : "bg-[#ccc]"
@@ -124,3 +116,4 @@ const Engagement = () => {
 };
 
 export default Engagement;
+// Engagement section

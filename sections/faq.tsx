@@ -72,3 +72,4 @@ const Faq = () => {
 };
 
 export default Faq;
+// Faq section

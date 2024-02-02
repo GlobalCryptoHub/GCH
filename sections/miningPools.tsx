@@ -96,3 +96,4 @@ const MiningPools = () => {
 };
 
 export default MiningPools;
+// Mining pools section
