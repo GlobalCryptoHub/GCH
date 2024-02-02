@@ -36,6 +36,8 @@ const Nft = () => {
 						className="bg-[#01002A] blur-xl rounded-[15px]"
 						pngImage="/nft-image.png"
 						webpImage="/nft-image.webp"
+						width={452}
+						height={566}
 					/>
 					<Text
 						children="Coming soon"

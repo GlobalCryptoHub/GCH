@@ -7,6 +7,8 @@ import {
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
 
+import { Text } from "@/elements";
+
 const Menu = () => {
 	const links = [
 		{ path: "/", name: "HOME" },
@@ -38,9 +40,12 @@ const Menu = () => {
 									href={path}
 									className="block font-semibold group text-white focus:text-[#D8BC40] hover:text-[#D8BC40]"
 								>
-									<span className="decoration-[5px] group-focus:underline group-hover:underline underline-offset-8">
+									<Text
+										as="span"
+										className="decoration-[5px] group-focus:underline group-hover:underline underline-offset-8"
+									>
 										{name}
-									</span>
+									</Text>
 								</Link>
 							</SheetClose>
 						</li>

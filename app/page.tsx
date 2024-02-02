@@ -1,9 +1,9 @@
-import { Footer, Nft } from "@/sections";
+import { Hero } from "@/sections";
 
 export default function Home() {
 	return (
 		<main className="min-h-screen p-4">
-			<Nft />
+			<Hero />
 		</main>
 	);
 }

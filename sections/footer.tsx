@@ -44,9 +44,9 @@ const Footer = () => {
 					/>
 					<Text className="lg:text-lg">
 						Designed & Built by the{" "}
-						<span className="text-[#5765EB] underline">
+						<Text as="span" className="text-[#5765EB] underline">
 							Global Crypto Hub Team
-						</span>
+						</Text>
 					</Text>
 				</div>
 			</div>
@@ -55,3 +55,4 @@ const Footer = () => {
 };
 
 export default Footer;
+// Footer section

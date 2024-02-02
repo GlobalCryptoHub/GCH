@@ -60,9 +60,12 @@ const MiningPools = () => {
 						key={i}
 					>
 						{i % 2 ? (
-							<span className="absolute bg-[#D9BD41] font-black py-3 px-2.5 sm:py-3.5 sm:pl-[15px] sm:pr-6 rounded-r-full text-lg text-white top-0 uppercase">
+							<Text
+								as="span"
+								className="absolute bg-[#D9BD41] font-black py-3 px-2.5 sm:py-3.5 sm:pl-[15px] sm:pr-6 rounded-r-full text-lg text-white top-0 uppercase"
+							>
 								MOST POPULAR
-							</span>
+							</Text>
 						) : (
 							<></>
 						)}

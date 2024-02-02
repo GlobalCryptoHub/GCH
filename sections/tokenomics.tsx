@@ -36,8 +36,13 @@ const Tokenomics = () => {
 						className="border border-[#DBDBDB] text-center font-black max-w-[400px] md:max-w-[500px] mx-auto my-10 px-4 py-9 rounded-[10px] text-lg md:text-xl uppercase"
 					>
 						<Text className="mx-auto">
-							{title} <span className="mx-2.5 sm:mx-5">|</span>
-							<span className="normal-case text-[#D8BC40]">{description}</span>
+							{title}{" "}
+							<Text as="span" className="mx-2.5 sm:mx-5">
+								|
+							</Text>
+							<Text as="span" className="normal-case text-[#D8BC40]">
+								{description}
+							</Text>
 						</Text>
 					</div>
 				))}
