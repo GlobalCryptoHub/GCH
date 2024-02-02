@@ -19,8 +19,10 @@ const Nft = () => {
 		<section className="bg-[#eee] -mx-4 px-4 py-16 [clip-path:polygon(0_0,100%_4%,100%_100%,0%_100%)] sm:pb-32 sm:pt-40 sm:[clip-path:polygon(0_0,100%_14%,100%_100%,0%_100%)]">
 			<Figure
 				altText="nft section icon"
-				imageStyles="mx-auto h-[60px] w-[60px]"
+				imageStyles="mx-auto"
 				image="/nft-icon.svg"
+				width={60}
+				height={60}
 			/>
 			<Heading
 				as="h2"

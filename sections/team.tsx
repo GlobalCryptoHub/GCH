@@ -46,8 +46,10 @@ const Team = () => {
 		<section className="bg-black bg-center bg-cover bg-no-repeat bg-[url('/team-bg.webp')] -mx-4 px-4 py-[50px]">
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto h-[60px] w-[60px]"
+				imageStyles="mx-auto"
 				image="/team-icon.svg"
+				width={60}
+				height={60}
 			/>
 			<Heading
 				as="h2"
@@ -77,6 +79,8 @@ const Team = () => {
 									className="rounded-full h-[165px] w-[165px] mx-auto"
 									pngImage={pngSrc}
 									webpImage={webpSrc}
+									width={165}
+									height={165}
 								/>
 								<Text
 									children={name}

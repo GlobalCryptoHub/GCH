@@ -58,8 +58,10 @@ const Engagement = () => {
 		<section>
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto h-[60px] w-[60px]"
+				imageStyles="mx-auto"
 				image="/engagement-icon.svg"
+				width={60}
+				height={60}
 			/>
 			<Heading
 				as="h2"

@@ -5,8 +5,10 @@ const RoadMap = () => {
 		<section className="bg-[#F5F5F5] -mx-4 pb-72 pt-6 px-4 sm:pt-12">
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto h-[60px] w-[60px]"
+				imageStyles="mx-auto"
 				image="/roadmap-icon.svg"
+				width={60}
+				height={60}
 			/>
 			<Heading
 				as="h2"

@@ -13,7 +13,7 @@ const Footer = () => {
 
 	return (
 		<footer className="relative -mx-4">
-			<div className="absolute bg-[#eee] h-[70%] top-10 w-full -z-10"></div>
+			<div className="absolute bg-[#eee] h-[70%] top-10 w-full -z-10 lg:h-[50%]"></div>
 			<div className="max-w-[600px] mx-auto px-4 lg:max-w-[800px] xl:max-w-[1024px]">
 				<div className="bg-black rounded-[20px] px-4 py-[70px]">
 					<div className="flex flex-col gap-y-[100px] justify-between lg:flex-row lg:ml-10 lg:mr-[60px]">

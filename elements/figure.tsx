@@ -7,10 +7,22 @@ const Figure = ({
 	containerStyles,
 	image,
 	imageStyles,
+	width,
+	height,
 }: ImageProps) => {
 	return (
 		<figure className={containerStyles}>
-			<Image src={image} className={imageStyles} alt={altText} />
+			{width && height ? (
+				<Image
+					src={image}
+					className={imageStyles}
+					alt={altText}
+					width={width}
+					height={height}
+				/>
+			) : (
+				<img src={image} className={imageStyles} alt={altText} />
+			)}
 		</figure>
 	);
 };
