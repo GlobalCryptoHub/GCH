@@ -1,3 +1,4 @@
+export { default as Engagement } from "./engagement";
 export { default as Faq } from "./faq";
 export { default as MiningPools } from "./miningPools";
 export { default as Nft } from "./nft";

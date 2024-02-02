@@ -43,7 +43,7 @@ const MiningPools = () => {
 			<Heading
 				as="h2"
 				children="Introducing quest mining pools"
-				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
 			/>
 			<Text
 				children="Select your desired pool and deploy your quests"

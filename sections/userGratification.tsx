@@ -5,32 +5,32 @@ const UserGratification = () => {
 		{
 			title: "Fully customizable user profile",
 			subTitle: "Show Off your hard-earned stats",
-			image: "/user-profile.png",
+			src: "/user-profile.png",
 		},
 		{
 			title: "No luck involved",
 			subTitle: "Earn with every action",
-			image: "/no-luck.png",
+			src: "/no-luck.png",
 		},
 		{
 			title: "Daily task bonus ",
 			subTitle: "Earn extra % bonus by completing tasks every day",
-			image: "/task-bonus.png",
+			src: "/task-bonus.png",
 		},
 		{
 			title: "Leveling system",
 			subTitle: "Each LVL provides extra % bonus",
-			image: "/leveling-system.png",
+			src: "/leveling-system.png",
 		},
 		{
 			title: "Achievements",
 			subTitle: "Completing quests grants achievements and extra % bonus",
-			image: "/achievements.png",
+			src: "/achievements.png",
 		},
 		{
 			title: "Work more, Earn more",
 			subTitle: "Up to 80% earning bonus when completing quests",
-			image: "/earn-more.png",
+			src: "/earn-more.png",
 		},
 	];
 
@@ -44,21 +44,21 @@ const UserGratification = () => {
 			<Heading
 				as="h2"
 				children="User gratification"
-				className="text-3xl sm:text-[40px] mb-[30px] mt-4 lg:text-6xl"
+				className="text-3xl sm:text-[40px] mb-[30px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
 			/>
 			<Text
 				children="Say goodbye to endless farming without any rewards"
 				className="text-center text-lg lg:text-[25px]"
 			/>
 			<div className="flex flex-wrap gap-x-[30px] gap-y-10 mt-16 justify-center max-w-[969px] mx-auto lg:mt-10">
-				{items.map(({ title, subTitle, image }, i) => (
+				{items.map(({ title, subTitle, src }, i) => (
 					<div
 						key={i}
 						className="text-center min-w-[265px] max-w-[300px] mx-auto sm:max-w-[300px] sm:min-w-[300px]"
 					>
 						<Figure
 							altText={title}
-							image={image}
+							image={src}
 							imageStyles="m-auto"
 							containerStyles="bg-white rounded-full flex h-[166px] w-[166px] mx-auto"
 						/>

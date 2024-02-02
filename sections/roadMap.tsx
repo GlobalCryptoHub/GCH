@@ -11,7 +11,7 @@ const RoadMap = () => {
 			<Heading
 				as="h2"
 				children="Road map"
-				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
 			/>
 			<Text
 				children="COMING SOON"

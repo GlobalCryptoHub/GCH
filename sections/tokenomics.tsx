@@ -17,7 +17,7 @@ const Tokenomics = () => {
 			<Heading
 				as="h2"
 				children="TOKENOMICS"
-				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
 			/>
 			<Text
 				children="Lorem Ipsum on lihtsalt proovitekst, mida kasutatakse printimis- ja ladumistööstuses. See on olnud tööstuse põhiline proovitekst juba alates 1500. aastatest, mil tundmatu printija võttis hulga suvalist teksti."

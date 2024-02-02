@@ -1,9 +1,9 @@
-import { Faq } from "@/sections";
+import { Engagement } from "@/sections";
 
 export default function Home() {
 	return (
 		<main className="min-h-screen p-4">
-			<Faq />
+			<Engagement />
 		</main>
 	);
 }
