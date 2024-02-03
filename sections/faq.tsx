@@ -40,7 +40,7 @@ const Faq = () => {
 		},
 	];
 	return (
-		<section id="faq" className="py-5 sm:pt-10 sm:pb-20">
+		<section id="faq" className="pt-10 pb-[60px] sm:pb-20">
 			<Figure
 				altText="faq section icon"
 				imageStyles="mx-auto"

@@ -55,10 +55,10 @@ const Engagement = () => {
 	];
 
 	return (
-		<section id="engagement" className="py-5 sm:py-10">
+		<section id="engagement" className="pt-10 pb-20 sm:py-10">
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto"
+				imageStyles="mx-auto w-auto h-auto"
 				image="/engagement-icon.svg"
 				width={60}
 				height={60}
@@ -105,7 +105,7 @@ const Engagement = () => {
 			</div>
 			<div className="hidden md:flex flex-wrap justify-center gap-x-10 gap-y-[60px]">
 				{items.map(({ title, src }, i) => (
-					<div>
+					<div key={i}>
 						<Card styles="flex m-5 mx-auto rounded-[10px] h-[222px] w-[258px]">
 							<Figure altText={title} image={src} containerStyles="m-auto" />
 						</Card>

@@ -34,7 +34,7 @@ const MiningPools = () => {
 	];
 
 	return (
-		<section id="mining-pools" className="py-5 sm:py-10">
+		<section id="mining-pools" className="pt-10 pb-[60px] sm:py-14">
 			<Figure
 				altText="mining pool section icon"
 				imageStyles="mx-auto"

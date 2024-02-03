@@ -8,10 +8,10 @@ const Tokenomics = () => {
 	];
 
 	return (
-		<section id="tokenomics" className="py-5 sm:py-20">
+		<section id="tokenomics" className="py-10 sm:py-20">
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto"
+				imageStyles="mx-auto w-auto h-auto"
 				image="/tokenomics-icon.svg"
 				width={60}
 				height={60}

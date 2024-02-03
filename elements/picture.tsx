@@ -9,6 +9,7 @@ const Picture = ({
 	webpImage,
 	width,
 	height,
+	priority,
 }: ImageProps) => {
 	return (
 		<picture>
@@ -21,6 +22,7 @@ const Picture = ({
 					alt={altText}
 					width={width}
 					height={height}
+					priority={priority}
 				/>
 			) : (
 				<img alt={altText} className={className} src={pngImage} />

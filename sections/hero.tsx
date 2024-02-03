@@ -11,6 +11,7 @@ const Hero = () => {
 					width={526.92}
 					pngImage="/hero.png"
 					webpImage="/hero.webp"
+					priority={false}
 				/>
 				<div className="max-w-[280px] mx-auto sm:max-w-md md:order-first md:max-w-xl md:mx-0">
 					<Heading

@@ -39,7 +39,7 @@ const Footer = () => {
 				</div>
 				<div className="flex flex-col justify-between mt-[30px] mb-5 gap-2 text-center lg:flex-row md:my-12 lg:gap-5">
 					<Text
-						children={`© ${year} Global Crypto Hub, All Right Reserved`}
+						children={`© ${year} Global Crypto Hub, All Right Reserved.`}
 						className="lg:text-lg"
 					/>
 					<Text className="lg:text-lg">

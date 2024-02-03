@@ -8,7 +8,7 @@ const RoadMap = () => {
 		>
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto"
+				imageStyles="mx-auto w-auto h-auto"
 				image="/roadmap-icon.svg"
 				width={60}
 				height={60}
