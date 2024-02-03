@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import Menu from "./menu";
 import { Button, Figure } from "@/elements";
@@ -19,11 +20,12 @@ const NavBar = () => {
 	return (
 		<nav className="lg:flex justify-between gap-10 lg:pt-10 xl:px-5">
 			<Menu />
-			<Figure
-				altText="logo"
-				image="/logo.png"
-				containerStyles="max-w-20 -mt-10 mx-auto lg:mt-0 lg:max-w-none lg:mx-0"
-			/>
+			<Link
+				href="/"
+				className="block max-w-20 -mt-10 mx-auto lg:mt-0 lg:max-w-none lg:mx-0"
+			>
+				<Image alt="Logo" src="/logo.png" width={172} height={172} />
+			</Link>
 			<div className="lg:-mt-[15px]">
 				<Button
 					children="Launch Dapp"

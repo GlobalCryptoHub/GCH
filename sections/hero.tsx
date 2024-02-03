@@ -29,7 +29,7 @@ const Hero = () => {
 					/>
 				</div>
 			</header>
-			<div className="py-2 flex justify-center gap-2.5 mt-[60px] sm:mt-[50px]">
+			<div className="py-2 flex justify-center gap-2.5 sm:mt-[50px]">
 				{Array.from({ length: 3 }).map((_, i) => (
 					<span
 						className={`inline-block h-5 w-5 rounded-full ${

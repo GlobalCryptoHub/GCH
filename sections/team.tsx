@@ -17,14 +17,14 @@ const Team = () => {
 
 	const items = [
 		{
-			name: "Matt",
-			role: "Marketing",
+			name: "Tudor",
+			role: "Founder",
 			pngSrc: "/matt.png",
 			webpSrc: "/matt.webp",
 		},
 		{
-			name: "Jen",
-			role: "Head of Design",
+			name: "Heap Void",
+			role: "CoFounder",
 			pngSrc: "/jen.png",
 			webpSrc: "/jen.webp",
 		},
@@ -35,10 +35,34 @@ const Team = () => {
 			webpSrc: "/chris.webp",
 		},
 		{
-			name: "Andrew",
-			role: "Chief of Department",
+			name: "Futurum",
+			role: "Community Manager",
 			pngSrc: "/andrew.png",
 			webpSrc: "/andrew.webp",
+		},
+		{
+			name: "Robert",
+			role: "Design",
+			pngSrc: "/matt.png",
+			webpSrc: "/matt.webp",
+		},
+		{
+			name: "FredOB",
+			role: "Frontend Developer",
+			pngSrc: "/chris.png",
+			webpSrc: "/chris.webp",
+		},
+		{
+			name: "Tardis",
+			role: "Blockchain Developer",
+			pngSrc: "/andrew.png",
+			webpSrc: "/andrew.webp",
+		},
+		{
+			name: "Blacksaru",
+			role: "Blockchain Developer",
+			pngSrc: "/matt.png",
+			webpSrc: "/matt.webp",
 		},
 	];
 
@@ -87,7 +111,7 @@ const Team = () => {
 								/>
 								<Text
 									children={name}
-									className="font-black mt-6 mb-[18px] text-[25px]"
+									className="font-black mt-6 mb-[18px] text-[25px] uppercase"
 								/>
 								<Text children={role} className="text-lg" />
 							</Card>

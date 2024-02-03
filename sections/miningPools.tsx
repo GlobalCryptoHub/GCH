@@ -86,7 +86,7 @@ const MiningPools = () => {
 							))}
 						</ul>
 						<Button
-							children="Get It Now"
+							children="Deploy Now"
 							className={`block mt-auto mx-auto ${
 								i % 2
 									? "bg-black hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
