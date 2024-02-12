@@ -31,12 +31,12 @@ const NavBar = () => {
 					children="Launch Dapp"
 					className="hidden lg:block border-2 border-[#D8BC40] bg-transparent mb-10 ml-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
 				/>
-				<ul className="hidden lg:flex gap-5 xl:gap-10">
+				<ul className="hidden lg:flex gap-5 max-w-[808px] xl:gap-10 xl:max-w-[968px]">
 					{links.map(({ name, path }, i) => (
 						<li key={i}>
 							<Link
 								href={path}
-								className={`block font-medium group lg:text-sm focus:text-[#D8BC40] hover:text-[#D8BC40] focus:font-black hover:font-black ${
+								className={`block font-medium group lg:text-sm focus:text-[#D8BC40] hover:text-[#D8BC40] ${
 									!i ? "text-[#D8BC40]" : "text-white"
 								}`}
 							>
