@@ -20,20 +20,6 @@ const Engagement = () => {
 
 	const items = [
 		{
-			title:
-				"Unlimited proof of work quest customization Choose from hundreds of templates",
-			src: "/work.png",
-		},
-		{
-			title:
-				"No profile maintenance or quest verification required, Log in, create, and deploy",
-			src: "/maintenance.png",
-		},
-		{
-			title: "Save time and Money Manual quest verification by our team",
-			src: "/save.png",
-		},
-		{
 			title: "Genuine engagement Completely avoid bots and multi-accounts",
 			src: "/engagement.png",
 		},
@@ -52,6 +38,20 @@ const Engagement = () => {
 				"Unleash unlimited potential Boost your brand/ project Engage your tweets Go viral on social media",
 			src: "/potential.png",
 		},
+		{
+			title:
+				"Unlimited proof of work quest customization Choose from hundreds of templates",
+			src: "/work.png",
+		},
+		{
+			title:
+				"Log in, create, and deploy Achieve Immediate exposure",
+			src: "/maintenance.png",
+		},
+		{
+			title: "Save time and Money Manual quest verification by our team",
+			src: "/save.png",
+		}
 	];
 
 	return (
@@ -89,8 +89,8 @@ const Engagement = () => {
 							</CarouselItem>
 						))}
 					</CarouselContent>
-					<CarouselPrevious />
-					<CarouselNext />
+					<CarouselPrevious className="-left-2 top-[125%] min-[418px]:-left-12 min-[418px]:top-1/2 min-[418px]:-translate-y-1/2" />
+					<CarouselNext className="-right-2 top-[125%] min-[418px]:-right-12 min-[418px]:top-1/2 min-[418px]:-translate-y-1/2" />
 				</Carousel>
 				<div className="py-2 flex justify-center gap-2.5 mt-[30px]">
 					{items.map((_, i) => (
@@ -103,7 +103,7 @@ const Engagement = () => {
 					))}
 				</div>
 			</div>
-			<div className="hidden md:flex flex-wrap justify-center gap-x-10 gap-y-[60px]">
+			<div className="hidden md:flex flex-wrap-reverse justify-center gap-x-10 gap-y-[60px] max-w-[1440px] mx-auto">
 				{items.map(({ title, src }, i) => (
 					<div key={i}>
 						<Card styles="flex m-5 mx-auto rounded-[10px] h-[222px] w-[258px]">

@@ -17,7 +17,7 @@ export default function Home() {
 		<main className="min-h-screen p-4">
 			<div
 				id="top"
-				className="bg-[#eee] bg-center bg-cover bg-origin-content bg-no-repeat md:bg-[url('/nav-bg.webp')] relative -m-4 p-4 pb-36 sm:pb-40 lg:pb-48 space-y-[60px] [clip-path:polygon(0_0,100%_0,100%_100%,0%_90%)] sm:[clip-path:polygon(0_0,100%_0,100%_95%,0%_85%)]"
+				className="bg-[#eee] bg-center bg-cover bg-origin-content bg-no-repeat md:bg-[url('/nav-bg.webp')] relative -m-4 p-4 pb-36 sm:pb-40 lg:pb-48 space-y-[60px] [clip-path:polygon(0_0,100%_0,100%_100%,0%_90%)] sm:[clip-path:polygon(0_0,100%_0,100%_95%,0%_85%)] 2xl:[clip-path:polygon(0_0,100%_0,100%_90%,0%_85%)]"
 			>
 				<NavBar />
 				<Hero />

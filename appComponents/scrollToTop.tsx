@@ -9,7 +9,7 @@ const ScrollToTop = () => {
 
 	return (
 		<div
-			className="cursor-pointer sticky left-[90%] bottom-10 w-9"
+			className="cursor-pointer sticky left-[90%] bottom-10 w-9 xl:left-[95%]"
 			onClick={scroll}
 		>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">

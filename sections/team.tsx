@@ -5,8 +5,6 @@ import {
 	Carousel,
 	CarouselContent,
 	CarouselItem,
-	CarouselNext,
-	CarouselPrevious,
 } from "@/components/ui/carousel";
 
 import { Figure, Heading, Picture, Text } from "@/elements";
@@ -19,14 +17,14 @@ const Team = () => {
 		{
 			name: "Tudor",
 			role: "Founder",
-			pngSrc: "/matt.png",
-			webpSrc: "/matt.webp",
+			pngSrc: "/tudor.png",
+			webpSrc: "/tudor.webp",
 		},
 		{
 			name: "Heap Void",
 			role: "CoFounder",
-			pngSrc: "/jen.png",
-			webpSrc: "/jen.webp",
+			pngSrc: "/heap.png",
+			webpSrc: "/heap.webp",
 		},
 		{
 			name: "Chris",
@@ -37,20 +35,20 @@ const Team = () => {
 		{
 			name: "Futurum",
 			role: "Community Manager",
-			pngSrc: "/andrew.png",
-			webpSrc: "/andrew.webp",
+			pngSrc: "/futurum.png",
+			webpSrc: "/futurum.webp",
 		},
 		{
-			name: "Robert",
-			role: "Design",
-			pngSrc: "/matt.png",
-			webpSrc: "/matt.webp",
+			name: "Ryusan",
+			role: "Designer",
+			pngSrc: "/ryusan.png",
+			webpSrc: "/ryusan.webp",
 		},
 		{
 			name: "FredOB",
 			role: "Frontend Developer",
-			pngSrc: "/chris.png",
-			webpSrc: "/chris.webp",
+			pngSrc: "/fredob.png",
+			webpSrc: "/fredob.webp",
 		},
 		{
 			name: "Tardis",
@@ -69,7 +67,7 @@ const Team = () => {
 	return (
 		<section
 			id="team"
-			className="bg-black bg-center bg-cover bg-no-repeat bg-[url('/team-bg.webp')] -mx-4 px-4 py-[50px]"
+			className="bg-black bg-center bg-cover bg-no-repeat bg-[url('/team-bg.webp')] -mx-4 px-4 pt-[50px] pb-16"
 		>
 			<Figure
 				altText="tokenomics section icon"
@@ -81,11 +79,7 @@ const Team = () => {
 			<Heading
 				as="h2"
 				children="TEAM"
-				className="text-white text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
-			/>
-			<Text
-				children="Lorem Ipsum on lihtsalt proovitekst, mida kasutatakse printimis- ja ladumistööstuses. See on olnud tööstuse põhiline proovitekst juba alates 1500. aastatest, mil tundmatu printija võttis hulga suvalist teksti."
-				className="text-white max-w-[1065px] mt-6 mb-12 mx-auto md:mb-20 md:mt-[30px] md:text-center md:text-xl"
+				className="text-white text-[30px] sm:text-[40px] mb-12 mt-4 md:mb-20 lg:text-6xl lg:leading-normal lg:mt-3.5"
 			/>
 			<Carousel
 				setApi={setApi}

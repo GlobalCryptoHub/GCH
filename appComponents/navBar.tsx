@@ -18,7 +18,7 @@ const NavBar = () => {
 	];
 
 	return (
-		<nav className="lg:flex justify-between gap-10 lg:pt-10 xl:px-5">
+		<nav className="lg:flex justify-around gap-10 lg:pt-10 xl:px-5">
 			<Menu />
 			<Link
 				href="/"

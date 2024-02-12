@@ -3,7 +3,7 @@ import { Button, Heading, Picture, Text } from "@/elements";
 const Hero = () => {
 	return (
 		<section>
-			<header className="flex flex-col justify-center text-white md:flex-row md:gap-10 md:items-center md:justify-evenly">
+			<header className="flex flex-col justify-center text-white md:flex-row md:gap-10 md:items-center md:justify-around">
 				<Picture
 					altText="hero"
 					className="mx-auto"
@@ -13,11 +13,11 @@ const Hero = () => {
 					webpImage="/hero.webp"
 					priority={false}
 				/>
-				<div className="max-w-[280px] mx-auto sm:max-w-md md:order-first md:max-w-xl md:mx-0">
+				<div className="max-w-[280px] mx-auto text-center sm:max-w-md md:order-first md:max-w-xl md:mx-0 md:text-left">
 					<Heading
 						as="h2"
-						children="Discover Engage Earn"
-						className="mb-5 mt-20 !text-left text-white text-[30px] sm:text-[40px] md:my-0 lg:text-6xl lg:leading-normal"
+						children="GlobalCryptoHub"
+						className="normal-case mb-5 mt-20 text-white text-[30px] sm:text-[40px] md:my-0 md:text-left lg:text-6xl lg:leading-normal"
 					/>
 					<Text
 						children="The first proof of work quest mining dapp"
@@ -25,7 +25,7 @@ const Hero = () => {
 					/>
 					<Button
 						children="Get Started"
-						className="block border-2 border-[#D8BC40] bg-transparent mb-28 mt-20 mx-auto py-3.5 md:m-0 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+						className="border-2 border-[#D8BC40] bg-transparent mb-28 mt-20 py-3.5 md:m-0 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
 					/>
 				</div>
 			</header>

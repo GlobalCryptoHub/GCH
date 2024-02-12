@@ -47,10 +47,12 @@ const Menu = () => {
 							</SheetClose>
 						</li>
 					))}
-					<Button
-						children="Launch Dapp"
-						className="block border-2 border-[#D8BC40] bg-transparent mx-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
-					/>
+					<SheetClose asChild>
+						<Button
+							children="Launch Dapp"
+							className="block border-2 border-[#D8BC40] bg-transparent mx-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+						/>
+					</SheetClose>
 				</SheetContent>
 			</Sheet>
 		</div>

@@ -7,8 +7,21 @@ const Footer = () => {
 	const year = new Date().getFullYear();
 
 	const items = [
-		{ name: "X-Twitter", src: "/x-twitter.png", path: "" },
-		{ name: "Discord", src: "/discord.png", path: "" },
+		{
+			name: "Gitbook",
+			src: "/gitbook.png",
+			path: "https://docs.globalcryptohub.io",
+		},
+		{
+			name: "X-Twitter",
+			src: "/x-twitter.png",
+			path: "https://twitter.com/GlobalCryptopro",
+		},
+		{
+			name: "Discord",
+			src: "/discord.png",
+			path: "https://discord.com/invite/9BDjb3GrHA",
+		},
 	];
 
 	return (
@@ -24,7 +37,7 @@ const Footer = () => {
 						/>
 						<div className="flex space-x-[30px] mb-40 justify-center">
 							{items.map(({ name, path, src }, i) => (
-								<Link href={path} key={i}>
+								<Link target="_blank" href={path} key={i}>
 									<Image alt={name} src={src} height={65} width={65} />
 								</Link>
 							))}
@@ -32,7 +45,11 @@ const Footer = () => {
 					</div>
 					<Text className="text-center text-white">
 						Have questions?{" "}
-						<Link href="/" className="text-[#D8BC40] underline">
+						<Link
+							target="_blank"
+							href="https://discord.com/invite/9BDjb3GrHA"
+							className="text-[#D8BC40] underline"
+						>
 							Join our discord
 						</Link>
 					</Text>

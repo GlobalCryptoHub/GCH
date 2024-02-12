@@ -32,12 +32,7 @@ const Nft = () => {
 			<Heading
 				as="h2"
 				children="The global Gateway NFT"
-				className="text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
-			/>
-			<Link
-				href="https://docs.globalcryptohub.io"
-				children="Go To Gitbook Docs"
-				className="block mt-2.5 mb-24 md:mb-32 text-[#004AB8] text-center underline underline-offset-[3px] md:text-xl"
+				className="text-[40px] mt-4 mb-24 md:mb-32 lg:text-6xl lg:leading-normal lg:mt-3.5"
 			/>
 			<div className="grid gap-20 sm:gap-16 md:gap-20 lg:gap-24 sm:grid-cols-2">
 				<div className="mx-auto relative h-fit">
