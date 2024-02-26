@@ -17,7 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="scroll-smooth">
 			<body
-				className={`${inter.className} max-w-[1960px] mx-auto overflow-x-hidden !mr-0`}
+				className={`${inter.className} max-w-[1960px] mx-auto overflow-x-hidden`}
 			>
 				{children}
 			</body>
