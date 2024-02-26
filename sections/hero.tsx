@@ -1,3 +1,12 @@
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogHeader,
+	DialogTrigger,
+	DialogTitle,
+} from "@/components/ui/dialog";
+
 import { Button, Heading, Picture, Text } from "@/elements";
 
 const Hero = () => {
@@ -23,10 +32,24 @@ const Hero = () => {
 						children="The first proof of work quest mining dapp"
 						className="text-white text-[25px] md:mb-[30px] md:mt-[15px] lg:text-[35px]"
 					/>
-					<Button
-						children="Get Started"
-						className="border-2 border-[#D8BC40] bg-transparent mb-28 mt-20 py-3.5 md:m-0 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
-					/>
+					<Dialog>
+						<DialogTrigger asChild>
+							<Button
+								children="Get Started"
+								className="border-2 border-[#D8BC40] bg-transparent mb-28 mt-20 py-3.5 md:m-0 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+							/>
+						</DialogTrigger>
+						<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white sm:max-w-[425px]">
+							<DialogHeader>
+								<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
+									Notice!!!
+								</DialogTitle>
+								<DialogDescription className="font-semibold text-white/70">
+									DApp is currently in development.
+								</DialogDescription>
+							</DialogHeader>
+						</DialogContent>
+					</Dialog>
 				</div>
 			</header>
 			<div className="py-2 flex justify-center gap-2.5 sm:mt-[50px]">

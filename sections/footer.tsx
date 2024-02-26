@@ -29,13 +29,13 @@ const Footer = () => {
 			<div className="absolute bg-[#eee] h-[70%] top-10 w-full -z-10 lg:h-[50%]"></div>
 			<div className="max-w-[600px] mx-auto px-4 lg:max-w-[800px] xl:max-w-[1024px]">
 				<div className="bg-black rounded-[20px] px-4 py-[70px]">
-					<div className="flex flex-col gap-y-[100px] justify-between lg:flex-row lg:ml-10 lg:mr-[60px]">
+					<div className="flex flex-col gap-x-[30px] gap-y-[100px] justify-between lg:flex-row lg:ml-10 lg:mr-[60px]">
 						<Heading
 							as="h1"
 							children="JOIN US NOW"
 							className="text-[50px] !text-[#FFD000]"
 						/>
-						<div className="flex space-x-[30px] mb-40 justify-center">
+						<div className="flex space-x-5 mb-40 justify-center xl:space-x-[30px]">
 							{items.map(({ name, path, src }, i) => (
 								<Link target="_blank" href={path} key={i}>
 									<Image alt={name} src={src} height={65} width={65} />

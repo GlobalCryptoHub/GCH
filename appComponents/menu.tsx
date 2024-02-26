@@ -5,9 +5,17 @@ import {
 	SheetContent,
 	SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogHeader,
+	DialogTitle,
+	DialogTrigger,
+} from "@/components/ui/dialog";
 import { MenuIcon } from "lucide-react";
 
-import { Button, Text } from "@/elements";
+import { Button } from "@/elements";
 
 const Menu = () => {
 	const links = [
@@ -24,7 +32,7 @@ const Menu = () => {
 
 	return (
 		<div className="grid grid-cols-2 gap-2 mt-4 lg:hidden">
-			<Sheet key="bottom">
+			<Sheet key="bottom" modal={false}>
 				<SheetTrigger className="cursor-pointer" asChild>
 					<MenuIcon color="white" />
 				</SheetTrigger>
@@ -47,12 +55,26 @@ const Menu = () => {
 							</SheetClose>
 						</li>
 					))}
-					<SheetClose asChild>
-						<Button
-							children="Launch Dapp"
-							className="block border-2 border-[#D8BC40] bg-transparent mx-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
-						/>
-					</SheetClose>
+					<Dialog>
+						<SheetClose asChild>
+							<DialogTrigger asChild>
+								<Button
+									children="Launch Dapp"
+									className="block border-2 border-[#D8BC40] bg-transparent mx-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+								/>
+							</DialogTrigger>
+						</SheetClose>
+						<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white w-[90vw] sm:max-w-[425px]">
+							<DialogHeader>
+								<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
+									Notice!!!
+								</DialogTitle>
+								<DialogDescription className="font-semibold text-white/70">
+									DApp is currently in development.
+								</DialogDescription>
+							</DialogHeader>
+						</DialogContent>
+					</Dialog>
 				</SheetContent>
 			</Sheet>
 		</div>

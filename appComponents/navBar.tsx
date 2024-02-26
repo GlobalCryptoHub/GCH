@@ -1,8 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogHeader,
+	DialogTrigger,
+	DialogTitle,
+} from "@/components/ui/dialog";
 
 import Menu from "./menu";
-import { Button, Figure } from "@/elements";
+import { Button } from "@/elements";
 
 const NavBar = () => {
 	const links = [
@@ -18,7 +26,7 @@ const NavBar = () => {
 	];
 
 	return (
-		<nav className="lg:flex justify-around gap-10 lg:pt-10 xl:px-5">
+		<nav className="lg:flex justify-around gap-10 lg:gap-5 lg:pt-10 xl:px-5 xl:gap-10">
 			<Menu />
 			<Link
 				href="/"
@@ -27,11 +35,25 @@ const NavBar = () => {
 				<Image alt="Logo" src="/logo.png" width={172} height={172} />
 			</Link>
 			<div className="lg:-mt-[15px]">
-				<Button
-					children="Launch Dapp"
-					className="hidden lg:block border-2 border-[#D8BC40] bg-transparent mb-10 ml-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
-				/>
-				<ul className="hidden lg:flex gap-5 max-w-[808px] xl:gap-10 xl:max-w-[968px]">
+				<Dialog>
+					<DialogTrigger asChild>
+						<Button
+							children="Launch Dapp"
+							className="hidden lg:block border-2 border-[#D8BC40] bg-transparent mb-10 ml-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+						/>
+					</DialogTrigger>
+					<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white sm:max-w-[425px]">
+						<DialogHeader>
+							<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
+								Notice!!!
+							</DialogTitle>
+							<DialogDescription className="font-semibold text-white/70">
+								DApp is currently in development.
+							</DialogDescription>
+						</DialogHeader>
+					</DialogContent>
+				</Dialog>
+				<ul className="hidden grow gap-5 lg:flex xl:gap-10">
 					{links.map(({ name, path }, i) => (
 						<li key={i}>
 							<Link

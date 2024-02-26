@@ -1,3 +1,12 @@
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogHeader,
+	DialogTrigger,
+	DialogTitle,
+} from "@/components/ui/dialog";
+
 import { Card } from "@/appComponents";
 import { Button, Figure, Heading, Text } from "@/elements";
 
@@ -85,14 +94,28 @@ const MiningPools = () => {
 								</li>
 							))}
 						</ul>
-						<Button
-							children="Deploy Now"
-							className={`block mt-auto mx-auto ${
-								i % 2
-									? "bg-black hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
-									: "border-2 border-[#D8BC40] bg-[#D9BD41] py-3.5  hover:bg-black active:bg-black focus:bg-black hover:border-black active:border-black focus:border-black"
-							}`}
-						/>
+						<Dialog>
+							<DialogTrigger asChild>
+								<Button
+									children="Deploy Now"
+									className={`block mt-auto mx-auto ${
+										i % 2
+											? "bg-black hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
+											: "border-2 border-[#D8BC40] bg-[#D9BD41] py-3.5  hover:bg-black active:bg-black focus:bg-black hover:border-black active:border-black focus:border-black"
+									}`}
+								/>
+							</DialogTrigger>
+							<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white sm:max-w-[425px]">
+								<DialogHeader>
+									<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
+										Notice!!!
+									</DialogTitle>
+									<DialogDescription className="font-semibold text-white/70">
+										DApp is currently in development.
+									</DialogDescription>
+								</DialogHeader>
+							</DialogContent>
+						</Dialog>
 					</Card>
 				))}
 			</div>
