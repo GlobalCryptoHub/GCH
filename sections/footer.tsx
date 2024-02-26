@@ -33,7 +33,7 @@ const Footer = () => {
 						<Heading
 							as="h1"
 							children="JOIN US NOW"
-							className="text-[50px] !text-[#FFD000]"
+							className="text-[40px] !text-[#FFD000] min-[1900px]:text-[50px]"
 						/>
 						<div className="flex space-x-5 mb-40 justify-center xl:space-x-[30px]">
 							{items.map(({ name, path, src }, i) => (
@@ -57,9 +57,9 @@ const Footer = () => {
 				<div className="flex flex-col justify-between mt-[30px] mb-5 gap-2 text-center lg:flex-row md:my-12 lg:gap-5">
 					<Text
 						children={`© ${year} Global Crypto Hub, All Right Reserved.`}
-						className="lg:text-lg"
+						className="min-[1900px]:text-lg"
 					/>
-					<Text className="lg:text-lg">
+					<Text className="min-[1900px]:text-lg">
 						Designed & Built by the{" "}
 						<Text as="span" className="!text-[#5765EB] underline">
 							Global Crypto Hub Team

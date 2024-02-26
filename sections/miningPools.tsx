@@ -54,11 +54,11 @@ const MiningPools = () => {
 			<Heading
 				as="h2"
 				children="Introducing quest mining pools"
-				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<Text
 				children="Select your desired pool and deploy your quests"
-				className="mb-[50px] mt-5 sm:mb-20 sm:mt-[30px] text-center text-[25px]"
+				className="mb-[50px] mt-5 sm:mb-20 sm:mt-[30px] text-center text-lg lg:text-[22px] min-[1900px]:text-[25px]"
 			/>
 			<div className="flex flex-wrap gap-10 md:gap-14 justify-center">
 				{items.map(({ title, list }, i) => (
@@ -81,7 +81,7 @@ const MiningPools = () => {
 						<Heading
 							as="h3"
 							children={title}
-							className="border-b border-b-[#ccc] leading-[105%] text-[40px] pb-[30px] px-10"
+							className="border-b border-b-[#ccc] leading-[105%] text-3xl min-[1900px]:text-[40px] pb-[30px] px-10"
 						/>
 						<ul className="mb-[30px] mt-10 ml-[30px] text-lg lg:text-xl max-w-[300px] space-y-2.5 lg:space-y-5 max-w-1/2">
 							{list.map((listItem, i) => (

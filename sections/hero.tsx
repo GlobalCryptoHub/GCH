@@ -30,7 +30,7 @@ const Hero = () => {
 					/>
 					<Text
 						children="The first proof of work quest mining dapp"
-						className="text-white text-[25px] md:mb-[30px] md:mt-[15px] lg:text-[35px]"
+						className="text-white text-xl md:text-[25px] md:mb-[30px] md:mt-[15px] min-[1900px]:text-[35px]"
 					/>
 					<Dialog>
 						<DialogTrigger asChild>

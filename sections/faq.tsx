@@ -79,7 +79,7 @@ const Faq = () => {
 			<Heading
 				as="h2"
 				children="Frequently asked questions"
-				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<Accordion
 				type="single"

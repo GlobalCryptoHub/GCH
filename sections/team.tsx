@@ -79,7 +79,7 @@ const Team = () => {
 			<Heading
 				as="h2"
 				children="TEAM"
-				className="text-white text-[30px] sm:text-[40px] mb-12 mt-4 md:mb-20 lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-white text-[30px] sm:text-[40px] mb-12 mt-4 md:mb-20 lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<Carousel
 				setApi={setApi}

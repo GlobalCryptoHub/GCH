@@ -102,7 +102,7 @@ const Engagement = () => {
 			<Heading
 				as="h2"
 				children="THE ULTIMATE ENGAGEMENT APP"
-				className="text-[30px] sm:text-[40px] mb-12 mt-4 sm:mb-20 lg:mb-[100px] lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-[30px] sm:text-[40px] mb-12 mt-4 sm:mb-20 lg:mb-[100px] lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<div className="md:hidden">
 				<Carousel

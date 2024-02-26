@@ -16,11 +16,11 @@ const RoadMap = () => {
 			<Heading
 				as="h2"
 				children="Road map"
-				className="text-[30px] sm:text-[40px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-[30px] sm:text-[40px] mt-4 lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<Text
 				children="COMING SOON"
-				className="blur-[2px] font-black text-[30px] sm:text-[40px] md:text-[50px] mt-72 uppercase text-center"
+				className="blur-[2px] font-black text-[30px] sm:text-4xl md:text-[50px] mt-72 uppercase text-center"
 			/>
 		</section>
 	);

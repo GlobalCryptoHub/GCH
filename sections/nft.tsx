@@ -32,7 +32,7 @@ const Nft = () => {
 			<Heading
 				as="h2"
 				children="The global Gateway NFT"
-				className="text-[40px] mt-4 mb-24 md:mb-32 lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-[40px] mt-4 mb-24 md:mb-32 lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<div className="grid gap-20 sm:gap-16 md:gap-20 lg:gap-24 sm:grid-cols-2">
 				<div className="mx-auto relative h-fit">
@@ -49,7 +49,7 @@ const Nft = () => {
 						className="absolute blur-[2px] text-center font-black h-fit w-fit inset-0 m-auto text-4xl lg:text-[50px] text-white -rotate-45 uppercase"
 					/>
 				</div>
-				<ul className="text-base lg:text-[25px] lg:leading-normal max-w-4xl mx-auto space-y-4 lg:space-y-[25px] max-w-1/2">
+				<ul className="text-base lg:text-xl lg:leading-normal max-w-4xl mx-auto space-y-4 lg:space-y-[25px] max-w-1/2 min-[1900px]:text-[25px]">
 					{items.map((item, i) => (
 						<li
 							className={`flex gap-5 md:gap-6 items-start ${

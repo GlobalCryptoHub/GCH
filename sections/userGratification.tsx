@@ -49,11 +49,11 @@ const UserGratification = () => {
 			<Heading
 				as="h2"
 				children="User gratification"
-				className="text-3xl sm:text-[40px] mb-[30px] mt-4 lg:text-6xl lg:leading-normal lg:mt-3.5"
+				className="text-3xl sm:text-[40px] mb-[30px] mt-4 lg:text-5xl lg:leading-normal lg:mt-3.5 min-[1900px]:text-6xl"
 			/>
 			<Text
 				children="Say goodbye to endless farming without any rewards"
-				className="text-center text-lg lg:text-[25px]"
+				className="text-center text-lg lg:text-[22px] min-[1900px]:text-[25px]"
 			/>
 			<div className="flex flex-wrap gap-x-[30px] gap-y-10 mt-16 justify-center max-w-[969px] mx-auto lg:mt-10">
 				{items.map(({ title, subTitle, src }, i) => (
@@ -71,7 +71,7 @@ const UserGratification = () => {
 							children={title}
 							className="font-black text-[22px] mb-1.5 mt-2.5"
 						/>
-						<Text children={subTitle} className="text-lg" />
+						<Text children={subTitle} className="min-[1900px]:text-lg" />
 					</div>
 				))}
 			</div>
