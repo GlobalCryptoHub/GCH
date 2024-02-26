@@ -22,11 +22,7 @@ const Hero = () => {
 					webpImage="/hero.webp"
 					priority={false}
 				/>
-				<div
-					data-aos="fade-up"
-					data-aos-duration="3000"
-					className="max-w-[280px] mx-auto text-center sm:max-w-md md:order-first md:max-w-xl md:mx-0 md:text-left"
-				>
+				<div className="max-w-[280px] mx-auto text-center sm:max-w-md md:order-first md:max-w-xl md:mx-0 md:text-left">
 					<Heading
 						as="h2"
 						children="GlobalCryptoHub"
@@ -43,7 +39,7 @@ const Hero = () => {
 								className="border-2 border-[#D8BC40] bg-transparent mb-28 mt-20 py-3.5 md:m-0 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
 							/>
 						</DialogTrigger>
-						<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white sm:max-w-[425px]">
+						<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white w-[90vw] sm:max-w-[425px]">
 							<DialogHeader>
 								<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
 									Notice!!!

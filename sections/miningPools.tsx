@@ -105,7 +105,7 @@ const MiningPools = () => {
 									}`}
 								/>
 							</DialogTrigger>
-							<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white sm:max-w-[425px]">
+							<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white w-[90vw] sm:max-w-[425px]">
 								<DialogHeader>
 									<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
 										Notice!!!

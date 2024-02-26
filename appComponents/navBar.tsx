@@ -42,7 +42,7 @@ const NavBar = () => {
 							className="hidden lg:block border-2 border-[#D8BC40] bg-transparent mb-10 ml-auto px-9 py-2.5 hover:bg-[#D9BD41] active:bg-[#D9BD41] focus:bg-[#D9BD41]"
 						/>
 					</DialogTrigger>
-					<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white sm:max-w-[425px]">
+					<DialogContent className="bg-black border-[#D8BC40] rounded-2xl text-white w-[90vw] sm:max-w-[425px]">
 						<DialogHeader>
 							<DialogTitle className="decoration-2 mb-5 underline underline-offset-4">
 								Notice!!!
