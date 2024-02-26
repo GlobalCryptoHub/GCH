@@ -71,7 +71,7 @@ const Team = () => {
 		>
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto"
+				imageStyles="animate-bounce mx-auto"
 				image="/team-icon.svg"
 				width={60}
 				height={60}

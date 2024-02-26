@@ -68,10 +68,10 @@ const Faq = () => {
 		},
 	];
 	return (
-		<section id="faq" className="pt-10 pb-[60px] sm:pb-20">
+		<section id="faq" className="pt-10 pb-[60px] sm:pb-20 lg:pt-16">
 			<Figure
 				altText="faq section icon"
-				imageStyles="mx-auto"
+				imageStyles="animate-bounce mx-auto"
 				image="/faq-icon.svg"
 				width={60}
 				height={60}

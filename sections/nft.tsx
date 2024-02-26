@@ -24,7 +24,7 @@ const Nft = () => {
 		>
 			<Figure
 				altText="nft section icon"
-				imageStyles="mx-auto"
+				imageStyles="animate-bounce mx-auto"
 				image="/nft-icon.svg"
 				width={60}
 				height={60}

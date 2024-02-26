@@ -22,7 +22,11 @@ const Hero = () => {
 					webpImage="/hero.webp"
 					priority={false}
 				/>
-				<div className="max-w-[280px] mx-auto text-center sm:max-w-md md:order-first md:max-w-xl md:mx-0 md:text-left">
+				<div
+					data-aos="fade-up"
+					data-aos-duration="3000"
+					className="max-w-[280px] mx-auto text-center sm:max-w-md md:order-first md:max-w-xl md:mx-0 md:text-left"
+				>
 					<Heading
 						as="h2"
 						children="GlobalCryptoHub"

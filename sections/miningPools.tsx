@@ -46,7 +46,7 @@ const MiningPools = () => {
 		<section id="mining-pools" className="pt-10 pb-[60px] sm:py-14">
 			<Figure
 				altText="mining pool section icon"
-				imageStyles="mx-auto"
+				imageStyles="animate-bounce mx-auto"
 				image="/mining-pools-icon.svg"
 				width={60}
 				height={60}

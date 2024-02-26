@@ -41,7 +41,7 @@ const UserGratification = () => {
 		>
 			<Figure
 				altText="user gratification section icon"
-				imageStyles="mx-auto"
+				imageStyles="animate-bounce mx-auto"
 				image="/user-gratification-icon.svg"
 				width={60}
 				height={60}

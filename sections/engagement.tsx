@@ -94,7 +94,7 @@ const Engagement = () => {
 		<section id="engagement" className="pt-10 pb-20 sm:py-10">
 			<Figure
 				altText="tokenomics section icon"
-				imageStyles="mx-auto w-auto h-auto"
+				imageStyles="animate-bounce mx-auto w-auto h-auto"
 				image="/engagement-icon.svg"
 				width={60}
 				height={60}

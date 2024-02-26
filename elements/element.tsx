@@ -10,7 +10,11 @@ const Element = ({
 }: ElementProps & {
 	tag: any;
 }) => {
-	return createElement(tag, { className, ...otherProps }, children);
+	return createElement(
+		tag,
+		{ className, ...otherProps },
+		children,
+	);
 };
 
 export default Element;

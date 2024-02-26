@@ -30,7 +30,7 @@ const NavBar = () => {
 			<Menu />
 			<Link
 				href="/"
-				className="block max-w-20 -mt-10 mx-auto lg:mt-0 lg:max-w-none lg:mx-0"
+				className="animate-spin-slow block max-w-20 -mt-10 mx-auto lg:mt-0 lg:max-w-none lg:mx-0"
 			>
 				<Image alt="Logo" src="/logo.png" width={172} height={172} />
 			</Link>
