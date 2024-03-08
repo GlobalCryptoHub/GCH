@@ -27,16 +27,16 @@ const Team = () => {
 			webpSrc: "/heap.webp",
 		},
 		{
-			name: "Chris",
-			role: "Full stack Developer",
-			pngSrc: "/chris.png",
-			webpSrc: "/chris.webp",
-		},
-		{
 			name: "Futurum",
 			role: "Community Manager",
 			pngSrc: "/futurum.png",
 			webpSrc: "/futurum.webp",
+		},
+		{
+			name: "FredOB",
+			role: "Frontend Developer",
+			pngSrc: "/fredob.png",
+			webpSrc: "/fredob.webp",
 		},
 		{
 			name: "Ryusan",
@@ -45,10 +45,10 @@ const Team = () => {
 			webpSrc: "/ryusan.webp",
 		},
 		{
-			name: "FredOB",
-			role: "Frontend Developer",
-			pngSrc: "/fredob.png",
-			webpSrc: "/fredob.webp",
+			name: "Chris",
+			role: "Full stack Developer",
+			pngSrc: "/chris.png",
+			webpSrc: "/chris.webp",
 		},
 	];
 
