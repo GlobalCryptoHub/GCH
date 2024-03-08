@@ -50,18 +50,6 @@ const Team = () => {
 			pngSrc: "/fredob.png",
 			webpSrc: "/fredob.webp",
 		},
-		{
-			name: "Tardis",
-			role: "Blockchain Developer",
-			pngSrc: "/andrew.png",
-			webpSrc: "/andrew.webp",
-		},
-		{
-			name: "Blacksaru",
-			role: "Blockchain Developer",
-			pngSrc: "/matt.png",
-			webpSrc: "/matt.webp",
-		},
 	];
 
 	return (
